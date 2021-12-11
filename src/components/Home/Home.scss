@@ -24,7 +24,7 @@
     .right{
         flex: 0.5;
         position: relative;
-        
+
         .wrapper{
             height: 100%;
             width: 100%;
@@ -42,7 +42,24 @@
             }
             h3{
                 font-size: 30px;
+                span{
+                    font-size: inherit;
+                    color:#005b1c ;
+                }
+                .ityped-cursor{
+                    animation: blink 1s infinite;
+                }
+                @keyframes blink {
+                    50% {
+                        opacity: 0.5 ;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }
             }
+           
+
         }
     }
 }
