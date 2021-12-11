@@ -1,3 +1,4 @@
+import { useState } from "react";
 
 import NavBar from "./components/NavBar/NavBar";
 import Home from "./components/Home/Home"
@@ -10,10 +11,10 @@ import "../src/app.scss"
 
 
 function App() {
-
+  const [menu, setMenu] = useState(false)
   return (
     <div className="app">
-      <NavBar />
+      <NavBar  menu={menu} setMenu={setMenu}/>
       <div className="sections">
         <Home />
         <Portfolio />

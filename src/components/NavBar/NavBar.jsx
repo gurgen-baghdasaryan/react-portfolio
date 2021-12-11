@@ -1,11 +1,15 @@
 import React from "react";
 import { Person, Mail } from "@material-ui/icons";
 
+
 import './NavBar.scss'
 
-const NavBar = () => {
+const NavBar = ({menu , setMenu}) => {
+
+ 
+
   return (
-    <div className="navbar" >
+    <div className={"navbar " + (menu && "active")}>
       <div className="wrapper">
         <div className="left">
           <a href="#home" className='logo'>gugscode</a>
@@ -20,10 +24,14 @@ const NavBar = () => {
         </div>
 
         <div className="right">
-          from right
+          <div className="humburger" onClick={()=>setMenu(!menu)}>
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
+          </div>
         </div>
       </div>
-    </div>
+    </div> 
   );
 };
 
