@@ -4,7 +4,7 @@ import './Menu.scss'
 const Menu = ({menu, setMenu}) => {
   return (
     <div className={"menu " +(menu && "active")} >
-      <ul>
+      <ul onClick={()=>{setMenu(false)}}>
         <li>
           <a href="#intro">Home</a>
         </li>
