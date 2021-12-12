@@ -12,7 +12,7 @@ const NavBar = ({menu , setMenu}) => {
     <div className={"navbar " + (menu && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="#home" className='logo'>gugscode</a>
+          <a href="#home" className='logo'>GugSpace</a>
           <div className="itemContainer">
             <Person className="icon"/>
             <span>+34 685 93 93 86</span>

@@ -1,6 +1,7 @@
 .home{
     background-color: #ffffff;
     display: flex;
+    height: 100vh;
     .left{
         flex: 0.5;
         overflow: hidden;        
@@ -15,7 +16,7 @@
             float: right;
 
             img{
-                height: 90%;
+                height: 100%;
                
                 
             }
