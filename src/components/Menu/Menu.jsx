@@ -1,25 +1,17 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 import './Menu.scss'
 
-const Menu = ({menu, setMenu}) => {
+const Menu = ({ menu, setMenu }) => {
   return (
-    <div className={"menu " +(menu && "active")} >
-      <ul onClick={()=>{setMenu(false)}}>
-        <li>
-          <a href="#intro">Home</a>
-        </li>
-        <li>
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a href="#works">Works</a>
-        </li>
-        <li>
-          <a href="#review">Review</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
+    <div className={"menu " + (menu && "active")} >
+      <ul onClick={() => { setMenu(false) }}>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/portfolio">Portfolio</Link></li>
+        <li><Link to="/Works">Works</Link></li>
+        <li><Link to="/Review">Review</Link></li>
+        <li><Link to="/Contact">Contact</Link></li>
       </ul>
     </div>
   );
