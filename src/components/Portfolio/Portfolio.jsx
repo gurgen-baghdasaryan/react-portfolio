@@ -5,8 +5,8 @@ const Portfolio = () => {
   return (
 
     <div className="portfolio">
-      from portfolio
-    </div>
+      <div className="rigth"></div>
+      <div className="left"></div>
   );
 };
 
