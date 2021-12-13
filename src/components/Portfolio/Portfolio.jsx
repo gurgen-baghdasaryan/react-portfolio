@@ -7,6 +7,7 @@ const Portfolio = () => {
     <div className="portfolio">
       <div className="rigth"></div>
       <div className="left"></div>
+    </div>
   );
 };
 
