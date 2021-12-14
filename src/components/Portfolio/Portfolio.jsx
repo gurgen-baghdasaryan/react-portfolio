@@ -19,36 +19,46 @@ const Portfolio = () => {
         <div className="item">
           <img src="https://www.caixabank.es/deployedfiles/particulares/Estaticos/Imagenes/Home/imaginhomebankia.jpg" 
           alt="" />
+          <h3>La Caixa</h3>
+
         </div>  
       </div>
       <div className="container">
         <div className="item">
           <img src="https://www.caixabank.es/deployedfiles/particulares/Estaticos/Imagenes/Home/imaginhomebankia.jpg" 
           alt="" />
+          <h3>La Caixa</h3>
+
         </div>  
       </div>
       <div className="container">
         <div className="item">
           <img src="https://www.caixabank.es/deployedfiles/particulares/Estaticos/Imagenes/Home/imaginhomebankia.jpg" 
           alt="" />
+          <h3>La Caixa</h3>
+
         </div>  
       </div>
       <div className="container">
         <div className="item">
           <img src="https://www.caixabank.es/deployedfiles/particulares/Estaticos/Imagenes/Home/imaginhomebankia.jpg" 
           alt="" />
+          <h3>La Caixa</h3>
+
         </div>  
       </div>
       <div className="container">
         <div className="item">
           <img src="https://www.caixabank.es/deployedfiles/particulares/Estaticos/Imagenes/Home/imaginhomebankia.jpg" 
           alt="" />
+          <h3>La Caixa</h3>
         </div>  
       </div>
       <div className="container">
         <div className="item">
           <img src="https://www.caixabank.es/deployedfiles/particulares/Estaticos/Imagenes/Home/imaginhomebankia.jpg" 
           alt="" />
+          <h3>La Caixa</h3>
         </div>  
       </div>
       </div>
